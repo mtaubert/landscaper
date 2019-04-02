@@ -16,7 +16,18 @@ _global_script_class_icons={
 [application]
 
 config/name="landscaper"
+run/main_scene="res://Scenes/Menu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Terrain_Generator="*res://Scripts/Terrain_Generator.gd"
+
+[display]
+
+window/size/width=1600
+window/size/height=900
+window/size/resizable=false
 
 [rendering]
 
