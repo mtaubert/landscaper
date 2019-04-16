@@ -22,6 +22,7 @@ config/icon="res://icon.png"
 [autoload]
 
 Terrain_Generator="*res://Scripts/Terrain_Generator.gd"
+Genetic_Algorithm="*res://Scripts/Genetic_Algorithm.gd"
 
 [display]
 
